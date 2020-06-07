@@ -1,5 +1,6 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from "@angular/common/http";
+import { getLocaleDateFormat } from "@angular/common";
 
 @Injectable({
   providedIn: "root",
@@ -11,3 +12,5 @@ export class FooddeliveryService {
   selectedFood: any;
   constructor(private http: HttpClient) {}
 }
+
+// methods

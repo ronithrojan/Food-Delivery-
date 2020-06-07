@@ -6,6 +6,7 @@ import { AppComponent } from "./app.component";
 import { HomeComponent } from "./home/home.component";
 import { SignUpComponent } from "./sign-up/sign-up.component";
 import { AboutusComponent } from "./aboutus/aboutus.component";
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { AboutusComponent } from "./aboutus/aboutus.component";
     HomeComponent,
     SignUpComponent,
     AboutusComponent,
+    HeaderComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
